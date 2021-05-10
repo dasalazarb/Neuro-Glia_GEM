@@ -13,7 +13,7 @@ clear all, close all;
 changeCobraSolver('gurobi5', 'all');
 
 %% Read the file
-model = xls2model("Supplementary file 1.xls")
+model = xls2model("Neuron-Glia_GEM.xls")
 
 %% Write as SBML model
 str = "Supplementary file 1.xml"
